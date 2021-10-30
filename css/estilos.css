@@ -1,0 +1,156 @@
+.nav-bar-top a {
+    float: right;
+    color: #1f0adf;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  table
+  {
+      width: 100%;
+  }
+  
+
+.banner
+{
+    height: 50px;
+}
+
+.banner h2
+{
+    margin-top: 50px;
+}
+.banner input
+{
+    float: right;
+    margin-bottom: 2px;
+    border-radius: 8px;
+} 
+.media 
+{
+    display: flex;
+    align-items: flex-start;
+}
+.media .parrafo-noticia {
+    flex: 1;
+    padding: 10px;
+}
+body
+{
+    display:inherit;
+    margin-left: 25%;
+    width: 60%;
+
+}
+.formulario-registro-usuarios
+{
+    display: flex;
+    align-items: flex-start;
+}
+.registrar
+{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.formulario-registro-usuarios .campos-registro
+{
+    padding: 10px;
+}
+.campos-registro
+{   
+    align-content:center;
+}
+
+.campos-registro input
+{
+    padding-top: 10px;
+    margin-top: 12px;
+}
+
+h1
+{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 50px;
+}
+
+.botones-ahorros {
+    margin-top: 20px;
+    padding-left: 35%;   
+}
+
+
+.input-form-area
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    float: inherit;
+}
+
+.input-form-area input 
+{
+    width: 200px;
+    margin: 5px;
+    margin-left: 10%;
+}
+.input-form-area #botonEnviar  
+{
+    border-radius: 3px;
+}
+
+.input-form-area label
+{
+    margin-left: 8%;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image-form-area
+{
+    width: 200px;
+    background-color: lightcoral;
+}
+
+.image-form-area img
+{
+    width: 200px;
+}
+
+.form-registro
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item{
+    padding: 2px;
+
+}
+
+.form-registro-clientes{
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+}
+
+.form-registro-clientes input{
+
+    font-size: 25px;
+}
+
+.form-registro-clientes select{
+
+    font-size: 25px;
+}
